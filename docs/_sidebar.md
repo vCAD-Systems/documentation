@@ -1,12 +1,15 @@
 - [Hauptseite](/)
 - [Download](download)
+- Tablet:
+  - [Befehl](tablet/befehl)
+  - [NativeUI](tablet/nativeui)
 - LiveMap:
   - [Esx](livemap/fivem/esx)
   - [Qbcore](livemap/fivem/qbcore)
   - [Standalone](livemap/fivem/standalone)
-- Erweitert:
-  - [HTTP-Endpoint](livemap/endpoint/endpoint)
-  - [Icons](livemap/endpoint/icons)
-  - Beispiel-Implementationen:
-    - [Lua](livemap/endpoint/examples/lua.md)
-    - [Javascript](livemap/endpoint/examples/js.md)
+  - Erweitert:
+    - [HTTP-Endpoint](livemap/endpoint/endpoint)
+    - [Icons](livemap/endpoint/icons)
+    - Beispiel-Implementationen:
+      - [Lua](livemap/endpoint/examples/lua.md)
+      - [Javascript](livemap/endpoint/examples/js.md)
