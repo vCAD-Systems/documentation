@@ -9,7 +9,7 @@ Es ist ziemlich selbsterklärend geschrieben, aber ich schreibe noch ein kleines
 # Was muss ich nun eingeben?
 
 ## NativeUI
- Kleines Tutorial kommt heute abend (20.5 21:30)
+ Kleines Tutorial kommt
 
 ## ESX Menu
- Kleines Tutorial kommt heute abend (20.5 23:00)
+ Kleines Tutorial kommt
