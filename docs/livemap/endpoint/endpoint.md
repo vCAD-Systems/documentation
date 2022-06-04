@@ -19,6 +19,7 @@ Die Daten müssen folgende Struktur haben:
     "privkey": "Private-Key"
     "data": [
         "name": "Name des Spielers",
+        "system": "copnet",
         "location": {
             "x":0,
             "y":0,

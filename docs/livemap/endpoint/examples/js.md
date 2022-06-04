@@ -8,6 +8,7 @@ data["data"] = []
 
 let player = {
     "name": "Name des Spielers",
+    "system": "copnet",
     "location": {"x":0,"y":0,"z":0},
     "style": {"icon": 1, "subtext": "Text im Popup"}
 }

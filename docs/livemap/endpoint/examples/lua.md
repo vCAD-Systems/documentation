@@ -9,6 +9,7 @@ data["data"] = {}
 -- Dafür diesen Teil in einem Loop ausführen.
 local player = {}
 player["name"] = "Name des Spielers"
+player["system"] = "copnet"
 player["location"] = {"x":0,"y":0,"z":0}
 player["style"] = {"icon": 1, "subtext": "Text im Popup"}
 table.insert(data, player)
