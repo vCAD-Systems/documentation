@@ -8,26 +8,21 @@ Das Skript kann ganz einfach in den `resources` Ordner entpackt werden.
 Denke daran, es in der server.cfg einzutragen. 
 
 
-### Events
-Das Skript stellt einige Schnittstellen zur verfügung, welche von anderen Skripten verwendet werden können  
-Alle Events sind server-seitig, müssen aber vom Client aus angestoßen werden.
+### Config
+#### Erklärung
 
-##### vcad-livemap:panic
-Setzt den Panikmodus.
-- Aktiv `true`
-- Inaktiv `false`
-```lua
-TriggerServerEvent("vcad-livemap:panic", true)
-```
+##### Config.Enable
+Soll das Script aktiviert werden und Spielerpositionen an die LiveMap gesendet werden?
+- Ja `true`
+- Nein `false`
 
 
-##### vcad-livemap:disablegps
-Deaktiviert das GPS eines Spielers.
-- Deaktiviert `true`
-- Aktiviert `false`
-```lua
-TriggerServerEvent("vcad-livemap:disablegps", true)
-```
+##### Config.DebugMode
+Soll der Debugmode aktiviert werden? Dieser Modus gibt Diagnoseinformationen in der Serverkonsole aus.  
+Für den Produktiv einsatz nicht geeignet.
+- Ja `true`
+- Nein `false`
+
 
 
 ##### Config.PrivateKey
@@ -42,6 +37,17 @@ Niedriger: Aktuellere Daten in der LiveMap
 Höher: Weniger Serverlast, sowie Lag  
 Ganzzahlwert zwischen 0 und 60
 
+
+##### Config.System
+In welchem System die Spieler angezeigt werden. In der standalone, kann dies nicht genauer unterteilt werden, wie in ESX oder QBCore, weil die Spieler nicht zuordbar sind.  
+Mögliche Werte:
+
+| **system** | **Beschreibung**           |
+|-----------|----------------------|
+| *       | Alle Systeme           |
+| copnet  | Nur CopNet Systeme     |
+| medicnet| Nur MedicNet Systeme   |
+| carnet  | Nur CarNet Systeme     | 
 
 ##### Config.Color 
 In welcher Farbe der Spieler auf der LiveMap angezeigt werden soll.
@@ -102,6 +108,15 @@ Config.PrivateKey = ""
 -- Update Rate in secs
 Config.UpdateRate = 1
 
+--[[
+ System where the players should be shown
+
+ - "copnet" - Only CopNet
+ - "medicnet" - Only MedicNet
+ - "carnet" - Only CarNet
+ - "*" - All systems
+]]
+Config.System = "copnet"
 
 --[[
 Blipcolor
@@ -132,18 +147,23 @@ Config.CommandGPS = true
 Config.ShowPanicNotfication = true
 ```
 
-### Config
-#### Erklärung
+### Events
+Das Skript stellt einige Schnittstellen zur verfügung, welche von anderen Skripten verwendet werden können  
+Alle Events sind server-seitig, müssen aber vom Client aus angestoßen werden.
 
-##### Config.Enable
-Soll das Script aktiviert werden und Spielerpositionen an die LiveMap gesendet werden?
-- Ja `true`
-- Nein `false`
+##### vcad-livemap:panic
+Setzt den Panikmodus.
+- Aktiv `true`
+- Inaktiv `false`
+```lua
+TriggerServerEvent("vcad-livemap:panic", true)
+```
 
 
-##### Config.DebugMode
-Soll der Debugmode aktiviert werden? Dieser Modus gibt Diagnoseinformationen in der Serverkonsole aus.  
-Für den Produktiv einsatz nicht geeignet.
-- Ja `true`
-- Nein `false`
-
+##### vcad-livemap:disablegps
+Deaktiviert das GPS eines Spielers.
+- Deaktiviert `true`
+- Aktiviert `false`
+```lua
+TriggerServerEvent("vcad-livemap:disablegps", true)
+```

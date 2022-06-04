@@ -45,8 +45,9 @@ Muss der Spieler einen spezifischen Job haben, um auf der LiveMap angezeigt zu w
 
 ##### Config.Jobs
 Eine Lua-Tabelle, welche Jobs auf der LiveMap angezeigt werden sollen und in welcher Farbe.
+Zusätzlich kann eingeschränkt werden, auf welchen Systemen der Spieler angezeigt werden soll.
 ```lua
-["job"] = farbe
+['job'] =    {['color'] = 2, ['system'] = "*"},
 ```
 | **Farbe** | **Nummer** |
 |-----------|------------|
@@ -55,6 +56,13 @@ Eine Lua-Tabelle, welche Jobs auf der LiveMap angezeigt werden sollen und in wel
 | Grün      | 3          |
 | Rot       | 4          |
 | Gelb      | 5          |
+
+| **system** | **Beschreibung**           |
+|-----------|----------------------|
+| *       | Alle Systeme           |
+| copnet  | Nur CopNet Systeme     |
+| medicnet| Nur MedicNet Systeme   |
+| carnet  | Nur CarNet Systeme     |
 
 
 ##### Config.NeededItem
@@ -120,17 +128,23 @@ Config.JobNeeded = true
 
 --[[
 Allowed jobs and the assigned blipcolor
-["job"] = color
+color:
 1 = white
 2 = blue
 3 = green
 4 = red
 5 = yellow
+
+systems:
+- copnet
+- medicnet
+- carnet
+- * (All Systems)
 ]]
 Config.Jobs = {
-    ['police'] = 2,
-    ['ambulance'] = 4,
-    ['mechanic'] = 5
+    ['police'] =    {['color'] = 2, ['system'] = "copnet"},
+    ['ambulance'] = {['color'] = 4, ['system'] = "medicnet"},
+    ['mechanic'] =  {['color'] = 5, ['system'] = "carnet"}
 }
 
 -- If item is needed in Inventory
