@@ -4,6 +4,7 @@
   - [Befehl](tablet/befehl)
   - [NativeUI](tablet/nativeui)
 - LiveMap:
+  - [Events und Befehle](livemap/fivem/events)
   - [Esx](livemap/fivem/esx)
   - [Qbcore](livemap/fivem/qbcore)
   - [Standalone](livemap/fivem/standalone)

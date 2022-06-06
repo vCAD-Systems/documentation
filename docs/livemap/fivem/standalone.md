@@ -3,6 +3,8 @@
 Die Standalone version ist mit allen FiveM-Frameworks kompatibel.  
 [Download hier](download)  
 
+!> Die Standalone Version ist aktuell noch in der Testphase. Es können Fehler auftreten.
+
 ### Installation
 Das Skript kann ganz einfach in den `resources` Ordner entpackt werden.  
 Denke daran, es in der server.cfg einzutragen. 
@@ -151,7 +153,7 @@ Config.ShowPanicNotfication = true
 Das Skript stellt einige Schnittstellen zur verfügung, welche von anderen Skripten verwendet werden können  
 Alle Events sind server-seitig, müssen aber vom Client aus angestoßen werden.
 
-##### vcad-livemap:panic
+#### vcad-livemap:panic
 Setzt den Panikmodus.
 - Aktiv `true`
 - Inaktiv `false`
@@ -160,10 +162,19 @@ TriggerServerEvent("vcad-livemap:panic", true)
 ```
 
 
-##### vcad-livemap:disablegps
-Deaktiviert das GPS eines Spielers.
+#### vcad-livemap:disablegps
+**Deaktiviert das GPS eines Spielers.**
 - Deaktiviert `true`
 - Aktiviert `false`
+
 ```lua
 TriggerServerEvent("vcad-livemap:disablegps", true)
+```
+**Für andere Spieler:**  
+- spieler: ID des Spielers
+
+```lua
+TriggerServerEvent("vcad-livemap:disableothergps", spieler, true) -- Clientseitig
+-- oder
+TriggerEvent("vcad-livemap:disableothergps", spieler, true) -- Serverseitig
 ```

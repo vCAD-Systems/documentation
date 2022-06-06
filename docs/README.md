@@ -16,9 +16,9 @@ NativeUI-Implementation: [NativeUI](tablet/nativeui)
 
 #### Dokumentation:
 
-[FiveM-Native](livemap/standalone)  
-[FiveM-ESX](livemap/esx)  
-[FiveM-QBCORE](livemap/qbcore)  
+[FiveM-Native](livemap/fivem/standalone)  
+[FiveM-ESX](livemap/fivem/esx)  
+[FiveM-QBCORE](livemap/fivem/qbcore)  
 
 #### HTTP Endpoint
 Du willst dein eigenes Skript schreiben und in die vCAD-LiveMap umgebung einbauen?  
