@@ -25,8 +25,10 @@ Für den Produktiv einsatz nicht geeignet.
 
 
 ##### Config.PrivateKey
-Dieser Schlüssel identifiziert das Script bei CopNet. Du erhälst ihn im vCAD-System unter Einstellungen -> Livemap einstellungen
+Dieser Schlüssel identifiziert das Script bei CopNet. Du erhälst ihn im vCAD-System unter Einstellungen -> Livemap einstellungen  
+
 !> **Wichtig!** Halte diesen Schlüssel geheim, um Manipulation zu verhindern. Solltest du den Schlüssel verlieren, kannst du ihn in den Einstellungen zurücksetzen
+
 Der Text muss zwischen zwei Anführungszeichen `"` gesetzt werden.
 
 
@@ -79,7 +81,7 @@ Muss der Spieler in einem Fahrzeug sein, um auf der Livemap angezeigt zu werden?
 
 ##### Config.AllowedVehicles
 Welche Fahrzeuge sind zugelassen?  
-Der Hash ist ein numerischer Wert, welcher von GTAV generiert wird.
+Der Hash ist ein numerischer Wert, welcher von GTAV generiert wird. Diesen kannst du dir in FiveM mithilfe von [GetHashKey()](https://docs.fivem.net/natives/?_0xD24D37CC275948CC)  
 ```lua
 [hash] = true
 -- Beispiel:
@@ -95,7 +97,7 @@ Der Panikmodus kann mit `/panic` aktiviert und mit `/panic reset` deaktiviert we
 
 
 ##### Config.CommandGPS
-Soll der `/gps` Befehl aktiviert werden?  
+Soll der `/gps` Befehl aktiviert werden? GPS deaktivieren: `/gps off`, GPS aktivieren: `/gps on`  
 Mit diesem Befehl kann der Spieler sich selber von der LiveMap verschwinden/wieder anzeigen lassen
 - Ja `true`
 - Nein `false`
