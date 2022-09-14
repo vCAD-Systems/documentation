@@ -3,6 +3,8 @@
 - Tablet:
   - [Befehl](tablet/befehl)
   - [NativeUI](tablet/nativeui)
+- Sync:
+  - [Config](sync/config)
 - LiveMap:
   - [Events und Befehle](livemap/fivem/events)
   - [Esx](livemap/fivem/esx)
