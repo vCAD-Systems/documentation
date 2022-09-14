@@ -12,6 +12,13 @@ vCad-Befehle: [Befehle](tablet/befehl)
 NativeUI-Implementation: [NativeUI](tablet/nativeui)
 
 
+## vCAD-Sync
+
+#### Dokumentation:
+
+Config: [Klick mich](sync/config)  
+
+
 ## vCAD-LiveMap
 
 #### Dokumentation:
