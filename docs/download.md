@@ -5,14 +5,13 @@
 FiveM-Scripte:  
 [Standalone](https://github.com/vCAD-Systems/vCAD_ui/archive/refs/heads/fivem.zip)  
 [ESX](https://github.com/vCAD-Systems/vCAD_ui/archive/refs/heads/fivem_esx.zip)
-
 [QB](https://github.com/vCAD-Systems/vCAD_ui/tree/fivem_qb.zip)
 
 AltV-Script:  
 [ALTV](https://github.com/vCAD-Systems/vCAD_ui/archive/refs/heads/altv.zip)
 
 ### vCAD-Sync
-Coming soon
+Bald verfügbar
 
 ### vCAD-LiveMap
 Alle FiveM-Scripte hier:
