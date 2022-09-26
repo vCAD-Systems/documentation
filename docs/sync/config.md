@@ -1,8 +1,8 @@
 # vCad-Sync  -  config.lua
 
-### Config.PrivateKey
+### Config.ApiKey
 
-Hier müsst ihr euren PrivateKey eintragen, damit das System weiß, auf welches Netzwerk zugegriffen werden muss.
+Hier müsst ihr euren ApiKey eintragen, damit das System weiß, auf welches Netzwerk zugegriffen werden muss.
 
 ### Config.Computer
 
@@ -30,6 +30,11 @@ Habt ihr keine modded Augenfarben drin, sind die aktuellen Ziffern in der hair.l
 
 Hier könnt ihr einstellen, welcher Admin selbständig Fahrzeuge in der `vehicle.lua` im Config Order hinzufügen darf.  
 Dies ist ingame mit dem Befehl `"vCAD-Car"` möglich.
+
+### Config.CharakterSync
+
+Hier könnt Ihr den kompletten Charakter Sync ausschalten, wenn nur der Fahrzeug Sync erwünscht ist.
+Stellt dazu einfach die Config auf `Config.CharakterSync = false`.
 
 ### Config.Multichar
 
