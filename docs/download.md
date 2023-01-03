@@ -11,9 +11,9 @@ AltV-Script:
 [ALTV](https://github.com/vCAD-Systems/vCAD_ui/archive/refs/heads/altv.zip)
 
 ### vCAD-Sync
-[ESX-Legacy](https://github.com/vCAD-Systems/vCAD-Sync/archive/refs/heads/main.zip)/
-[ESX-Old](https://github.com/vCAD-Systems/vCAD-Sync/archive/refs/heads/vCAD-Sync(Mysql-Async).zip)
-[QBCore](https://github.com/vCAD-Systems/vCad-Sync-QB/archive/refs/heads/main.zip)
+[ESX-Legacy](https://github.com/vCAD-Systems/vCAD-Sync/archive/refs/heads/main.zip)  
+[ESX-Old](https://github.com/vCAD-Systems/vCAD-Sync/archive/refs/heads/vCAD-Sync(Mysql-Async).zip)  
+[QB-Core](https://github.com/vCAD-Systems/vCad-Sync-QB/archive/refs/heads/main.zip)  
 ### vCAD-LiveMap
 Alle FiveM-Scripte hier:
 
