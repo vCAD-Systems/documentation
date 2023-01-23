@@ -1,8 +1,9 @@
-# vCad-Sync  -  config.lua
+# vCad-Sync  -  Config-Files
 
-### Config.ApiKey
+### Config.ApiKey (server/api_config.lua)
 
 Hier müsst ihr euren ApiKey eintragen, damit das System weiß, auf welches Netzwerk zugegriffen werden muss.
+Euren API-Key findet ihr im vCAD -Panel unter "API-Verwaltung".
 
 ### Config.Computer
 
