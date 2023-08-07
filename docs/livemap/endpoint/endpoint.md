@@ -18,6 +18,7 @@ Die Daten müssen folgende Struktur haben:
 {
     "privkey": "Private-Key"
     "data": [
+        {
         "name": "Name des Spielers",
         "system": "copnet",
         "location": {
@@ -28,6 +29,7 @@ Die Daten müssen folgende Struktur haben:
         "style": {
             "icon": 1,
             "subtext": "Text der im Popup angezeigt wird."
+        }
         }
     ]
 }
