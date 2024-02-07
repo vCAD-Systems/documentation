@@ -15,7 +15,7 @@ AltV-Script:
 [QB-Core](https://github.com/vCAD-Systems/vCad-Sync-QB/archive/refs/heads/main.zip)  
 
 Wenn deine ESX-Legacy Version kein [esx:getSharedObject](https://documentation.esx-framework.org/tutorials/tutorials-esx/sharedevent/) unterstützt, nutze diese Version:  
-[ESX-Legacy für neue Versionen](https://github.com/vCAD-Systems/vCAD-Sync/releases/download/v1.0-esx-legacy-fix/vCAD-Sync-main-esx-legacy-fix.rar)
+[ESX-Legacy für neue Versionen](https://github.com/vCAD-Systems/vCAD-Sync/archive/refs/heads/ESX-Legacy_v1.10.zip)
 
 ### vCAD-LiveMap
 
